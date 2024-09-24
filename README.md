@@ -8,16 +8,10 @@ Bem-vindo ao meu repositório! Neste projeto, desenvolvi um site que explora as 
 - **Estudos de Caso**: Veja como a IA está sendo aplicada em diferentes indústrias.
 - **Recursos**: Acesse uma lista de ferramentas e bibliotecas úteis para trabalhar com IA.
 
-## 🌐 Acesse o Site
-
-👉 [Visite meu site aqui!](https://seusite.com)
-
 ## 🛠️ Tecnologias Utilizadas
 
 - HTML
 - CSS
-- JavaScript
-- Frameworks de IA (especificar se houver)
 
 ## 🤝 Contribuições
 
