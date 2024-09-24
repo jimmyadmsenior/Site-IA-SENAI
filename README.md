@@ -19,10 +19,6 @@ Bem-vindo ao meu repositório! Neste projeto, desenvolvi um site que explora as 
 - JavaScript
 - Frameworks de IA (especificar se houver)
 
-## 📄 Licença
-
-Este projeto está licenciado sob a MIT License. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
 ## 🤝 Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
