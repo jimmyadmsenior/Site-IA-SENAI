@@ -1,0 +1,146 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+
+
+main {
+    margin: 30px auto;
+    padding: 20px;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-left: 4px solid #4CAF50;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+/* Pseudoelementos */
+.first-letter::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.first-line::first-line {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Pseudoclasses */
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:focus {
+    outline: 3px solid #FFA500;
+}
+
+input:focus {
+    outline: 2px solid #FFA500;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:in-range {
+    border-color: green;
+}
+
+section:first-of-type {
+    background-color: #e7f4e4;
+}
+
+section:last-of-type {
+    background-color: #f4e7f4;
+}
+
+p:last-child {
+    color: #777;
+}
+
+/* Navegação */
+.navigation {
+    text-align: center;
+}
+
+button:lang(pt-br) {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Referências */
+.references {
+    list-style-type: none;
+    padding: 0;
+}
+
+.references li {
+    margin-bottom: 10px;
+}
+
+.references a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.references a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
