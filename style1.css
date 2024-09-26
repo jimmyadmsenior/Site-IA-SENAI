@@ -1,0 +1,65 @@
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bolder;
+    color: blue;
+}
+
+h4{
+    font: normal bold 20px Arial, Helvetica, sans-serif; 
+}
+
+.aviso::after {
+    content: " [Assim as IAs começaram a serem usadas em programações.]";
+    font-weight: bold;
+    color: blue;
+    }
+ 
+ 
+ .app::after {
+    content: " [GitHub Copilot]";
+    font-weight: bold;
+    color: blue;
+    }
+ 
+ 
+    .app2::after {
+        content: " [Codex (OpenAI)]";
+        font-weight: bold;
+        color: blue;
+        }
+a:active {
+    background-color: rgb(5, 248, 187);
+    }
+
+    input:checked {
+        height: 50px;
+        width: 50px;
+      }
+
+      p:empty {
+        width: 100px;
+        height: 20px;
+        background: blue;
+      }
+
+      input[type=text]:enabled {
+        background: rgb(214, 213, 213);
+      }
+    
+    p:first-child {
+        background-color: rgb(192, 190, 190);
+      }
+    
+      h5:first-of-type {
+        background: rgb(192, 190, 190);
+      }
+
+      h5{
+        font-size: 15px;
+    }
+
+    input:disabled {
+        background: #dddddd;
+      }
