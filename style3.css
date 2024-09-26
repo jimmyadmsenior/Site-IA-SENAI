@@ -29,7 +29,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #007BFF; /* Alterado para azul */
     padding: 20px;
     text-align: center;
     color: white;
@@ -55,12 +55,12 @@ main {
 section {
     margin-bottom: 30px;
     padding: 15px;
-    border-left: 4px solid #4CAF50;
+    border-left: 4px solid #007BFF; /* Alterado para azul */
     background-color: #f9f9f9;
 }
 
 h2 {
-    color: #4CAF50;
+    color: #007BFF; /* Alterado para azul */
     margin-bottom: 10px;
     font-size: 2em;
     font-family: 'Montserrat', sans-serif;
@@ -70,7 +70,7 @@ h2 {
 .first-letter::first-letter {
     font-size: 2em;
     font-weight: bold;
-    color: #4CAF50;
+    color: #007BFF; /* Alterado para azul */
 }
 
 .first-line::first-line {
@@ -82,7 +82,7 @@ h2 {
 button {
     padding: 10px 20px;
     margin: 10px;
-    background-color: #4CAF50;
+    background-color: #007BFF; /* Alterado para azul */
     color: white;
     border: none;
     border-radius: 5px;
@@ -91,7 +91,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #0056b3; /* Alterado para um azul mais escuro */
 }
 
 button:focus {
@@ -143,7 +143,7 @@ button:lang(pt-br) {
 }
 
 .references a {
-    color: #4CAF50;
+    color: #007BFF; /* Alterado para azul */
     text-decoration: none;
 }
 
@@ -151,17 +151,12 @@ button:lang(pt-br) {
     text-decoration: underline;
 }
 
-/* Rodapé */
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #4CAF50;
+    background-color: #007BFF;
     color: white;
     position: relative;
     bottom: 0;
     width: 100%;
-}
-
-footer p {
-    margin: 0;
 }
