@@ -1,1 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo na horizontal */
+}
 
+header {
+    background-color: #345cd6;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    width: 100%; /* Garante que o header ocupe toda a largura */
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header :not(p) {
+    font-weight: bold;
+}
+
+.section:nth-child(2) {
+    background-color: #e8f5e9;
+}
+
+footer {
+    text-align: center;
+    margin: 20px;
+    color: #6c6969; 
+}
+
+h2 {
+    color: #205dd6; /* Corpara os títulos das seções */
+}
+
+h3 {
+    color: #060606; /* Cor para subtítulos */
+}
+
+.negrito {
+    font-weight: bold; /* Define o texto como negrito */
+}
+
+/* ::marker pseudo-element */
+li::marker {
+    content: "•"; /* Definir o marcador como um círculo */
+    color: #0055ff; /* Cor personalizada do marcador */
+    font-size: 1.5em; /* Tamanho maior do marcador */
+}
+
+/* ::selection pseudo-element */
+::selection {
+    background-color: #044ff1; /* Cor de fundo para o texto selecionado */
+    color: #ffffff; /* Cor do texto selecionado */
+}
+
+/* Mantendo o menu de navegação fixo ao rolar a página */
+header {
+    background-color: #345cd6;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: sticky; /* Fixa o header no topo da página */
+    top: 0;
+    z-index: 1000; 
+}
+ 
+
+/* Efeito de hover com transição suave nos links de navegação */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding-bottom: 5px;
+    transition: all 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+/* Transição animada de sublinhado ao passar o mouse */
+nav ul li a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ffffff;
+    transition: width 1.0s;
+}
+
+nav ul li a:hover::after {
+    width: 100%; /* Linha se expande ao passar o mouse */
+}
+
+.section {
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section:target {
+    border: 2px solid #0c31ff; /* Destaque na borda ao clicar no link */
+}
