@@ -6,7 +6,138 @@
     <title>Exemplos de IAs e Como Elas Programam</title>
     <link rel="stylesheet" href="style3.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+    <!-- 🛑🛑SEÇÃO FEITA POR IA 🛑🛑 -->
+
+    <script>
+        function changeLanguage() {
+            const language = document.getElementById('language-select').value;
+            const texts = {
+                'pt-br': {
+                    title: 'Exemplos de IAs e Como Elas Programam',
+                    section1Title: 'Exemplos de IAs e as Linguagens Mais Usadas por Elas',
+                    section1Content: [
+                        'Muitas das ferramentas de IA que conhecemos hoje utilizam linguagens de programação versáteis e poderosas, como Python, Java, e C++. Python, em particular, é amplamente utilizado devido à simplicidade e vasta biblioteca de suporte para aprendizado de máquina, como TensorFlow e PyTorch.',
+                        'Python permite aos programadores criar algoritmos complexos de IA com menos linhas de código, tornando-o a escolha principal para desenvolvedores que trabalham com modelos de machine learning e deep learning. Java, por sua vez, é amplamente utilizado para IA em grande escala devido à sua portabilidade e desempenho, especialmente em sistemas de back-end.',
+                        'Além disso, há também uma linguagem que se destaca em estatísticas e análise de dados, o R utilizada para desenvolver modelos preditivos. Já o JavaScript tem ganhado espaço em aplicações web, permitindo a criação de interfaces interativas que utilizam IA diretamente no navegador.'
+                    ],
+                    section2Title: 'Como uma IA é Ensinada a Programar',
+                    section2Content: [
+                        'O treinamento de IA para programação segue o mesmo princípio básico do aprendizado de máquina. A IA é alimentada com grandes volumes de dados de código (geralmente provenientes de repositórios de código aberto), como os encontrados no GitHub. Um exemplo popular é o GitHub Copilot, que usa a IA do OpenAI para auxiliar os desenvolvedores, aprendendo com padrões no código e gerando sugestões.',
+                        'A IA não "entende" o código da mesma maneira que um humano, mas ela reconhece padrões e repetições. Ela pode sugerir como completar funções, corrigir bugs, ou até mesmo gerar código novo com base em problemas fornecidos pelo usuário. O processo é semelhante ao treinamento de IA em reconhecimento de linguagem natural, com a diferença de que o treinamento é focado na compreensão de linguagens de programação específicas.',
+                        'Outra abordagem interessante é a utilização de redes neurais para gerar código. Essas redes são treinadas em vastos conjuntos de dados de código-fonte, permitindo que a IA aprenda a escrever código de maneira autônoma, o que pode revolucionar a forma como desenvolvedores trabalham.'
+                    ],
+                    referencesTitle: 'Referências',
+                    references: [
+                        'Melhores linguagens de programação para inteligência artificial',
+                        'TensorFlow - Uma das bibliotecas mais usadas para IA',
+                        'PyTorch - Biblioteca poderosa para deep learning',
+                        'GitHub Copilot - IA para auxiliar programadores',
+                        'OpenAI - Pesquisas e desenvolvimentos sobre IA',
+                        'R - Linguagem para estatísticas e análise de dados',
+                        'JavaScript - Linguagem para desenvolvimento web',
+                        'Towards Data Science - Artigos sobre IA e programação',
+                        'Analytics Vidhya - Recursos sobre IA e aprendizado de máquina',
+                        'KDnuggets - Notícias e tutoriais sobre IA e ciência de dados'
+                    ],
+                    backButton: 'Voltar ao Início',
+                    nextButton: 'Próxima Página'
+                },
+                'en': {
+                    title: 'Examples of AIs and How They Program',
+                    section1Title: 'Examples of AIs and the Most Used Languages by Them',
+                    section1Content: [
+                        'Many of the AI tools we know today use versatile and powerful programming languages such as Python, Java, and C++. Python, in particular, is widely used due to its simplicity and vast library support for machine learning, such as TensorFlow and PyTorch.',
+                        'Python allows programmers to create complex AI algorithms with fewer lines of code, making it the primary choice for developers working with machine learning and deep learning models. Java, in turn, is widely used for large-scale AI due to its portability and performance, especially in back-end systems.',
+                        'Additionally, there is also a language that stands out in statistics and data analysis, R, which is used to develop predictive models. JavaScript has gained traction in web applications, allowing the creation of interactive interfaces that utilize AI directly in the browser.'
+                    ],
+                    section2Title: 'How an AI is Taught to Program',
+                    section2Content: [
+                        'Training AI for programming follows the same basic principle of machine learning. The AI is fed large volumes of code data (usually from open-source code repositories), such as those found on GitHub. A popular example is GitHub Copilot, which uses OpenAI\'s AI to assist developers by learning from patterns in code and generating suggestions.',
+                        'The AI does not "understand" code the same way a human does, but it recognizes patterns and repetitions. It can suggest how to complete functions, fix bugs, or even generate new code based on problems provided by the user. The process is similar to training AI in natural language recognition, with the difference that the training focuses on understanding specific programming languages.',
+                        'Another interesting approach is the use of neural networks to generate code. These networks are trained on vast datasets of source code, allowing AI to learn to write code autonomously, which could revolutionize the way developers work.'
+                    ],
+                    referencesTitle: 'References',
+                    references: [
+                        'Best programming languages for artificial intelligence',
+                        'TensorFlow - One of the most used libraries for AI',
+                        'PyTorch - Powerful library for deep learning',
+                        'GitHub Copilot - AI to assist programmers',
+                        'OpenAI - Research and development on AI',
+                        'R - Language for statistics and data analysis',
+                        'JavaScript - Language for web development',
+                        'Towards Data Science - Articles on AI and programming',
+                        'Analytics Vidhya - Resources on AI and machine learning',
+                        'KDnuggets - News and tutorials on AI and data science'
+                    ],
+                    backButton: 'Back to Home',
+                    nextButton: 'Next Page'
+                },
+                'es': {
+                    title: 'Ejemplos de IAs y Cómo Programan',
+                    section1Title: 'Ejemplos de IAs y los Lenguajes Más Usados por Ellas',
+                    section1Content: [
+                        'Muchas de las herramientas de IA que conocemos hoy utilizan lenguajes de programación versátiles y potentes, como Python, Java y C++. Python, en particular, se utiliza ampliamente debido a su simplicidad y vasta biblioteca de soporte para el aprendizaje automático, como TensorFlow y PyTorch.',
+                        'Python permite a los programadores crear algoritmos complejos de IA con menos líneas de código, lo que lo convierte en la opción principal para los desarrolladores que trabajan con modelos de aprendizaje automático y aprendizaje profundo. Java, por su parte, se utiliza ampliamente para IA a gran escala debido a su portabilidad y rendimiento, especialmente en sistemas de back-end.',
+                        'Además, también hay un lenguaje que se destaca en estadísticas y análisis de datos, el R, que se utiliza para desarrollar modelos predictivos. El JavaScript ha ganado terreno en aplicaciones web, permitiendo la creación de interfaces interactivas que utilizan IA directamente en el navegador.'
+                    ],
+                    section2Title: 'Cómo se Enseña a una IA a Programar',
+                    section2Content: [
+                        'El entrenamiento de IA para programación sigue el mismo principio básico del aprendizaje automático. La IA se alimenta con grandes volúmenes de datos de código (generalmente provenientes de repositorios de código abierto), como los que se encuentran en GitHub. Un ejemplo popular es GitHub Copilot, que utiliza la IA de OpenAI para ayudar a los desarrolladores, aprendiendo de patrones en el código y generando sugerencias.',
+                        'La IA no "entiende" el código de la misma manera que un humano, pero reconoce patrones y repeticiones. Puede sugerir cómo completar funciones, corregir errores o incluso generar código nuevo basado en problemas proporcionados por el usuario. El proceso es similar al entrenamiento de IA en reconocimiento de lenguaje natural, con la diferencia de que el entrenamiento se centra en la comprensión de lenguajes de programación específicos.',
+                        'Otro enfoque interesante es la utilización de redes neuronales para generar código. Estas redes se entrenan en vastos conjuntos de datos de código fuente, lo que permite que la IA aprenda a escribir código de manera autónoma, lo que podría revolucionar la forma en que trabajan los desarrolladores.'
+                    ],
+                    referencesTitle: 'Referencias',
+                    references: [
+                        'Mejores lenguajes de programación para inteligencia artificial',
+                        'TensorFlow - Una de las bibliotecas más utilizadas para IA',
+                        'PyTorch - Biblioteca poderosa para aprendizaje profundo',
+                        'GitHub Copilot - IA para ayudar a programadores',
+                        'OpenAI - Investigaciones y desarrollos sobre IA',
+                        'R - Lenguaje para estadísticas y análisis de datos',
+                        'JavaScript - Lenguaje para desarrollo web',
+                        'Towards Data Science - Artículos sobre IA y programación',
+                        'Analytics Vidhya - Recursos sobre IA y aprendizaje automático',
+                        'KDnuggets - Noticias y tutoriales sobre IA y ciencia de datos'
+                    ],
+                    backButton: 'Volver al Inicio',
+                    nextButton: 'Página Siguiente'
+                }
+            };
+
+            const selectedTexts = texts[language];
+
+            document.title = selectedTexts.title;
+            document.querySelector('header h1').innerText = selectedTexts.title;
+
+            document.querySelector('section:nth-of-type(1) h2').innerText = selectedTexts.section1Title;
+            const section1Paragraphs = document.querySelectorAll('section:nth-of-type(1) p');
+            section1Paragraphs.forEach((p, index) => {
+                p.innerText = selectedTexts.section1Content[index];
+            });
+
+            document.querySelector('section:nth-of-type(2) h2').innerText = selectedTexts.section2Title;
+            const section2Paragraphs = document.querySelectorAll('section:nth-of-type(2) p');
+            section2Paragraphs.forEach((p, index) => {
+                p.innerText = selectedTexts.section2Content[index];
+            });
+
+            document.querySelector('section:nth-of-type(3) h2').innerText = selectedTexts.referencesTitle;
+            const referencesList = document.querySelector('.references');
+            referencesList.innerHTML = '';
+            selectedTexts.references.forEach(ref => {
+                const li = document.createElement('li');
+                li.innerHTML = `<a href="#">${ref}</a>`;
+                referencesList.appendChild(li);
+            });
+
+            document.querySelector('.navigation button:nth-of-type(1)').innerText = selectedTexts.backButton;
+            document.querySelector('.navigation button:nth-of-type(2)').innerText = selectedTexts.nextButton;
+        }
+    </script>
 </head>
+
+        <!-- 🛑🛑SEÇÃO FEITA POR IA 🛑🛑 -->
 
 <body>
     <div class="video-background">
@@ -70,7 +201,7 @@
 
         <div class="lang-selector">
             <label for="language-select">Selecione o idioma:</label>
-            <select id="language-select">
+            <select id="language-select" onchange="changeLanguage()">
                 <option value="pt-br">Português (Brasil)</option>
                 <option value="en">Inglês</option>
                 <option value="es">Espanhol</option>
