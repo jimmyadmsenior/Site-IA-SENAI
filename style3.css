@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif; /* Fonte para o corpo */
+    font-family: 'Roboto', sans-serif;
     background-color: #f0f8ff;
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ body {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    z-index: -1; /* Coloca o vídeo atrás do conteúdo */
+    z-index: -1;
 }
 
 .video-background video {
@@ -29,12 +29,12 @@ body {
 }
 
 header {
-    background-color: #007BFF; /* Alterado para azul */
+    background-color: #007BFF;
     padding: 20px;
     text-align: center;
     color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    font-family: 'Montserrat', sans-serif; /* Fonte para o cabeçalho */
+    font-family: 'Montserrat', sans-serif;
 }
 
 header h1 {
@@ -55,12 +55,12 @@ main {
 section {
     margin-bottom: 30px;
     padding: 15px;
-    border-left: 4px solid #007BFF; /* Alterado para azul */
+    border-left: 4px solid #007BFF;
     background-color: #f9f9f9;
 }
 
 h2 {
-    color: #007BFF; /* Alterado para azul */
+    color: #007BFF;
     margin-bottom: 10px;
     font-size: 2em;
     font-family: 'Montserrat', sans-serif;
@@ -70,7 +70,7 @@ h2 {
 .first-letter::first-letter {
     font-size: 2em;
     font-weight: bold;
-    color: #007BFF; /* Alterado para azul */
+    color: #007BFF;
 }
 
 .first-line::first-line {
@@ -82,7 +82,7 @@ h2 {
 button {
     padding: 10px 20px;
     margin: 10px;
-    background-color: #007BFF; /* Alterado para azul */
+    background-color: #007BFF;
     color: white;
     border: none;
     border-radius: 5px;
@@ -91,7 +91,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3; /* Alterado para um azul mais escuro */
+    background-color: #0056b3;
 }
 
 button:focus {
@@ -143,7 +143,7 @@ button:lang(pt-br) {
 }
 
 .references a {
-    color: #007BFF; /* Alterado para azul */
+    color: #007BFF;
     text-decoration: none;
 }
 
@@ -160,3 +160,20 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Seletores de linguagem */
+.lang-selector {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.lang-selector select {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+/* Jimmy Alessandro de Castilho 🤑 */
