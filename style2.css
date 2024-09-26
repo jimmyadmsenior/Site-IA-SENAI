@@ -1,1 +1,67 @@
+/* style2.css */
 
+.interessante::before {
+  content: "Curiosidade: ";
+  font-weight: bold;
+  color: red;
+}
+
+p:only-child {
+  background-color: cornflowerblue;
+}
+
+input:optional {
+  background-color: cornflowerblue;
+}
+
+input:out-of-range {
+  border: 2px solid black;
+}
+
+input:read-only {
+  background-color: cornflowerblue;
+}
+
+input:read-write {
+  background-color: cornflowerblue;
+}
+
+input:required {
+  background-color: cornflowerblue;
+}
+
+:root {
+  background-color: #D4D4D4;
+}
+
+:target {
+  border: 2px solid #D4D4D4;
+  background-color: #e5eecc;
+}
+
+input:valid {
+  background-color: cornflowerblue;
+}
+
+a:visited {
+  color: purple;
+}
+
+/* Estilização dos botões de navegação */
+.navigation {
+  margin-top: 20px;
+}
+
+.navigation button {
+  background-color: cornflowerblue;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.navigation button:hover {
+  background-color: deepskyblue;
+}
